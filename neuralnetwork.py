@@ -52,11 +52,7 @@ print(net)
 
 
 
-
-
-
-
-
+""" 
 
 example_input = torch.randn(1, 1, 32, 32)
 
@@ -66,7 +62,7 @@ mlir_module = torch_mlir.compile(
     output_type=torch_mlir.OutputType.LINALG_ON_TENSORS
 )
 print(mlir_module)
-
+ """
 
 
 
